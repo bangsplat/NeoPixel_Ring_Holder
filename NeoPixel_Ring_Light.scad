@@ -6,7 +6,7 @@
 // 	it's even about the right size to fit around a lens with a 52 mm filter thread
 // 	Unfortunately, there's not an obvious way to fit it
 // 	
-// 	This is a holder that fits over a Tiffen 25 mm UV filter
+// 	This is a holder that fits over a Tiffen 52 mm UV filter
 // 	and holds the NeoPixel Ring plus a diffuser lens
 //
 
@@ -14,16 +14,16 @@
 $fa=1;
 
 uv_filter_OD = 54+0.2;
-//uv_filter_OD = 54+0.1;
-//uv_filter_OD = 54;
+//uv_filter_OD = 54+0.1;		// V2
+//uv_filter_OD = 54;			// V1
 uv_filter_thickness = 5;
 
 shelf_thickness = 1;
 
 neopixel_ID = 52.2;
 neopixel_OD = 65.5+0.2;
-//neopixel_OD = 65.5+0.1;
-//neopixel_OD = 65.5;
+//neopixel_OD = 65.5+0.1;		// V2
+//neopixel_OD = 65.5;			// V1
 neopixel_thickness = 3.1;
 
 diffuser_thickness = 4;
@@ -31,7 +31,7 @@ diffuser_thickness = 4;
 walls = 1.6;
 
 cut_out_width = 3;
-//cut_out_width = 2;
+//cut_out_width = 2;	// V1
 cut_out_separation=10;
 
 
